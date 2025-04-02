@@ -43,7 +43,7 @@ const SideMenu = () => {
           </Link>
 
           <Link
-            
+            to="/tamil"
             className={`block text-2xl font-bold mt-4 ${darkMode ? "text-white" : "text-black"}`}
           >
             Tamil

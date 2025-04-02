@@ -9,6 +9,7 @@ import PlayList from './Components/PlayList'
 import Footer from './Components/Footer'
 import SideMenu from './Components/SideMenu'
 import PunjabiSongs from './Components/PunjabiSongs'
+import TamilSongs from './Components/TamilSongs'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/playlist' element ={<PlayList/>} />
           <Route path='/sidemenu' element ={<SideMenu/>} />
           <Route path='/punjabi' element ={<PunjabiSongs/>} />
+          <Route path='/tamil' element ={<TamilSongs/>} />
       </Routes>
       <Footer/>
    </BrowserRouter>
