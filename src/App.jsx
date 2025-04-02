@@ -8,7 +8,7 @@ import LogIn from './Components/LogIn'
 import PlayList from './Components/PlayList'
 import Footer from './Components/Footer'
 import SideMenu from './Components/SideMenu'
-import EnglishSongs from './Components/EnglishSongs'
+import PunjabiSongs from './Components/PunjabiSongs'
 
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
           <Route path='/login' element ={<LogIn/>} />
           <Route path='/playlist' element ={<PlayList/>} />
           <Route path='/sidemenu' element ={<SideMenu/>} />
-          <Route path='/english' element ={<EnglishSongs/>} />
+          <Route path='/punjabi' element ={<PunjabiSongs/>} />
       </Routes>
       <Footer/>
    </BrowserRouter>
